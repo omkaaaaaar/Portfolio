@@ -40,4 +40,60 @@ It’s a responsive, mobile-friendly site built with **HTML**, **CSS**, and **Ja
 ---
 
 ## 📂 Folder Structure
+/assets
+├── profile-pic.png
+├── about-pic.png
+├── project-1.png
+├── project-2.png
+├── certificate-1.png
+├── ...
+index.html
+style.css
+mediaqueries.css
+script.js
+README.md
+
+---
+
+## 📜 Certificates
+
+- Advanced Python - Geeks for Geeks 
+- Django REST API - Udemy
+- Python for Beginners - Last Moment Tutions
+*(Update with your actual certificates or links)*
+
+---
+
+## 🔗 Links
+
+- 🔗 **Live Site**: [https://omkaaaaaar.vercel.app](https://omkaaaaaar.vercel.app)
+- 🐱 **GitHub**: [github.com/omkaaaaaar](https://github.com/omkaaaaaar)
+- 💼 **LinkedIn**: [linkedin.com/in/omkar-patkar-ab8a74343](https://www.linkedin.com/in/omkar-patkar-ab8a74343)
+- 📧 **Email**: [omkarpatkarr@gmail.com](mailto:omkarpatkarr@gmail.com)
+
+---
+
+## 🚀 Hosting
+
+Deployed for free on [Vercel](https://vercel.com/), ensuring fast load speeds and smooth deployment with every Git push.
+
+---
+
+## 📄 License
+
+This project is open-source under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to fork and customize it.
+
+---
+
+## 🙏 Acknowledgements
+
+- [GitHub Calendar API](https://github.com/IonicaBizau/github-calendar)
+- [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
+- [Flaticon](https://www.flaticon.com/) for icons
+
+---
+
+### 💡 Tip
+
+> Want to build your own? Fork this repo and plug in your own content. Let your code do the talking!
 
