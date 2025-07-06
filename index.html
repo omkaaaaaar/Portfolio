@@ -107,18 +107,15 @@
         </div>
       </div>
     
-      <!-- GitHub Chart below About -->
+     <!-- GitHub Chart below About (LIVE Version) -->
       <div class="github-contributions-container">
-        <p class="section__text__p1">My Recent</p>
-        <h1 class="title">GitHub Contributions</h1>
-        <div class="calendar-scroll-container">
-          <img
-            src="https://ghchart.rshah.org/333333/omkaaaaaar"
-            alt="Omkaaaaaar's GitHub chart"
-            class="calendar-img"
-          />
-        </div>        
+       <p class="section__text__p1">My Recent</p>
+       <h1 class="title">GitHub Contributions</h1>
+       <div class="calendar-scroll-container">
+        <div class="calendar"></div>
+       </div>
       </div>
+
     
       <img
         src="./assets/arrow.png"
@@ -440,19 +437,25 @@
       <p>Copyright &#169; 2024 Omkar Patkar. All Rights Reserved.</p>
     </footer>
     
-    <!-- GitHub Calendar Styles and Script -->
+    <!-- GitHub Calendar Contributions -->
+    <div class="calendar-scroll-container">
+     <div class="calendar"></div>
+    </div>
+
+    <!-- GitHub Calendar Library -->
     <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar/dist/github-calendar-responsive.css"/>
-   <!-- GitHubCalendar script is not needed when using the static image -->
-<!--
-<script src="https://unpkg.com/github-calendar"></script>
-<script>
-  GitHubCalendar(".calendar", "omkaaaaaar", {
-    responsive: true,
-  });
-</script>
--->
+     rel="stylesheet"
+     href="https://unpkg.com/github-calendar/dist/github-calendar-responsive.css"
+    />
+    <script src="https://unpkg.com/github-calendar"></script>
+    <script>
+     document.addEventListener("DOMContentLoaded", function () {
+       GitHubCalendar(".calendar", "omkaaaaaar", {
+        responsive: true,
+       });
+      });
+    </script>
+
 
     
     <!-- Your custom JS -->
