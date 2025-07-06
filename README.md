@@ -9,7 +9,7 @@ It’s a responsive, mobile-friendly site built with **HTML**, **CSS**, and **Ja
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./assets/portfolio.png) <!-- replace with an actual screenshot if available -->
+![Portfolio Screenshot](./assets/Portfolio.png) <!-- replace with an actual screenshot if available -->
 
 ---
 
