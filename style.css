@@ -521,6 +521,14 @@ footer p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.calendar {
+  min-height: 150px;
+  border: 1px solid #ccc; /* temporary border to confirm it's rendering */
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+
 @media screen and (max-width: 768px) {
   .details-container {
     max-width: 90%;
