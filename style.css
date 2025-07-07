@@ -534,3 +534,15 @@ footer p {
     max-width: 90%;
   }
 }
+
+.calendar-static-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
