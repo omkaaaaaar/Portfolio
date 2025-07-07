@@ -5,13 +5,13 @@ It’s a responsive, mobile-friendly site built with **HTML**, **CSS**, and **Ja
 
 🔗 **Live Site:** [omkaaaaaar.vercel.app](https://omkaaaaaar.vercel.app)
 
----
+-----
 
 ## 📸 Preview
 
 ![Portfolio Screenshot](./assets/Portfolio.png) <!-- replace with an actual screenshot if available -->
 
----
+-----
 
 ## 🔥 Features
 
@@ -25,7 +25,7 @@ It’s a responsive, mobile-friendly site built with **HTML**, **CSS**, and **Ja
 - 📬 Contact Me section with email and LinkedIn
 - 🍔 Hamburger menu for mobile navigation
 
----
+-----
 
 ## 🛠 Tech Stack
 
@@ -37,7 +37,7 @@ It’s a responsive, mobile-friendly site built with **HTML**, **CSS**, and **Ja
 | GitHubCalendar.js | Contributions graph |
 | Responsive Design | Mobile-first approach |
 
----
+-----
 
 ## 📂 Folder Structure
 /assets
@@ -53,7 +53,7 @@ mediaqueries.css
 script.js
 README.md
 
----
+-----
 
 ## 📜 Certificates
 
@@ -62,7 +62,7 @@ README.md
 - Python for Beginners - Last Moment Tutions
 *(Update with your actual certificates or links)*
 
----
+-----
 
 ## 🔗 Links
 
@@ -71,19 +71,19 @@ README.md
 - 💼 **LinkedIn**: [linkedin.com/in/omkar-patkar-ab8a74343](https://www.linkedin.com/in/omkar-patkar-ab8a74343)
 - 📧 **Email**: [omkarpatkarr@gmail.com](mailto:omkarpatkarr@gmail.com)
 
----
+-----
 
 ## 🚀 Hosting
 
 Deployed for free on [Vercel](https://vercel.com/), ensuring fast load speeds and smooth deployment with every Git push.
 
----
+-----
 
 ## 📄 License
 
 This project is open-source under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to fork and customize it.
 
----
+-----
 
 ## 🙏 Acknowledgements
 
@@ -91,7 +91,7 @@ This project is open-source under the [MIT License](https://choosealicense.com/l
 - [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
 - [Flaticon](https://www.flaticon.com/) for icons
 
----
+-----
 
 ### 💡 Tip
 
