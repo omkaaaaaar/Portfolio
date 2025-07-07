@@ -164,10 +164,17 @@ section {
 
 #profile {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
-  height: 80vh;
+  height: auto;
+  flex-wrap: wrap; /* Important for small screens */
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem 1rem;
 }
+
 
 .section__pic-container {
   display: flex;
@@ -175,6 +182,8 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+
 
 .section__text {
   align-self: center;
@@ -465,12 +474,6 @@ footer p {
   margin-bottom: 1rem;
 }
 
-.calendar .contrib-day[data-level="0"] { fill: #ebedf0; }
-.calendar .contrib-day[data-level="1"] { fill: #c6e48b; }
-.calendar .contrib-day[data-level="2"] { fill: #7bc96f; }
-.calendar .contrib-day[data-level="3"] { fill: #239a3b; }
-.calendar .contrib-day[data-level="4"] { fill: #196127; }
-
 .calendar-scroll-container {
   overflow-x: auto;
   overflow-y: hidden;
@@ -503,7 +506,7 @@ footer p {
 
 .calendar-scroll-container::-webkit-scrollbar-thumb {
   background-color: #888;
-  border-radius: 10px;
+  border-radius: 1px;
   transition: background-color 0.3s ease;
 }
 
@@ -529,11 +532,6 @@ footer p {
 }
 
 
-@media screen and (max-width: 768px) {
-  .details-container {
-    max-width: 90%;
-  }
-}
 
 .calendar-static-container {
   display: flex;
@@ -587,4 +585,81 @@ footer p {
 
 .github-chart-scroll::-webkit-scrollbar-track {
   background-color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 1rem;       /* small side margins */
+    padding: 2rem 1rem;   /* some padding for breathing room */
+    height: auto;         /* allow content height to adjust */
+  }
+
+  .section-container {
+    flex-direction: column; /* stack vertically on small */
+    align-items: center;    /* center all content */
+    margin: 0 auto;
+  }
+
+  /* For the profile section or other flex rows */
+  #profile {
+    margin: 0 auto;
+    justify-content: center; /* center children */
+  }
+
+  /* Fix large fixed width images and containers */
+  .section__pic-container {
+    width: 90vw;  /* max width 90% of viewport */
+    max-width: 400px;
+    height: auto; /* adjust height */
+  }
+
+  /* Calendar image container fix */
+  .calendar-img {
+    margin-left: 0 !important; /* remove negative margin */
+    width: 95vw !important;    /* responsive width */
+  }
+  @media screen and (max-width: 768px) {
+    section {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      width: 100% !important;
+      max-width: 600px; /* or any max width that looks good */
+      box-sizing: border-box;
+      height: auto !important;
+    }
+  
+    @media screen and (max-width: 768px) {
+      section {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        width: 100% !important;
+        max-width: 600px; /* or any max width that looks good */
+        box-sizing: border-box;
+        height: auto !important;
+      }
+      .calendar-scroll-container {
+        overflow-x: auto;
+        padding: 10px;
+        /* Optional: to hide vertical scrollbar */
+        overflow-y: hidden;
+        /* max-width can be set to your container width */
+        max-width: 100%;
+      }
+      
+      .calendar-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 900px; /* or whatever max width fits your layout */
+        margin: 0 auto;
+        object-fit: contain;
+      }
+      
+    }
+  }
 }
