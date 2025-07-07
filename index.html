@@ -16,7 +16,6 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#certificates">Certificates</a></li> 
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -33,7 +32,6 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -107,20 +105,18 @@
         </div>
       </div>
     
-     <!-- GitHub Chart below About (LIVE Version) -->
+      <!-- GitHub Chart below About -->
       <div class="github-contributions-container">
-       <p class="section__text__p1">My Recent</p>
-       <h1 class="title">GitHub Contributions</h1>
-       <div class="calendar-static-container">
-        <img
-          src="https://ghchart.rshah.org/omkaaaaaar"
-          alt="GitHub Contributions Chart"
-          style="width: 100%; max-width: 720px; height: auto; border-radius: 12px;"
-        />
+        <p class="section__text__p1">My Recent</p>
+        <h1 class="title">GitHub Contributions</h1>
+        <div class="calendar-scroll-container">
+          <img
+            src="https://ghchart.rshah.org/333333/omkaaaaaar"
+            alt="Omkaaaaaar's Github chart"
+            class="calendar-img"
+          />
+        </div>
       </div>
-      
-      </div>
-
     
       <img
         src="./assets/arrow.png"
@@ -259,17 +255,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Sales Prediction Model</h2>
+            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/omkaaaaaar/Sales_Predition_Model'"
+                onclick="location.href='https://github.com/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://LinkedIn.com/'"
+                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
@@ -332,79 +328,6 @@
         onclick="location.href='./#contact'"
       />
     </section>
-
-    <section id="certificates">
-      <p class="section__text__p1">View My</p>
-      <h1 class="title">Certificates</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/certificate-1.png"
-                alt="Certificate 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Python Certificate</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ibb.co/n8znxfKL'"
-              >
-                View Certificate
-              </button>
-            </div>
-          </div>
-    
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/certificate-2.png"
-                alt="Certificate 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Django Certificate</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ibb.co/4gJqWkxb'"
-              >
-                View Certificate
-              </button>
-            </div>
-          </div>
-    
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/certificate-3.png"
-                alt="Certificate 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Python Certificate</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ibb.co/nNGhz37Z'"
-              >
-                View Certificate
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    
-
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -441,7 +364,23 @@
       </nav>
       <p>Copyright &#169; 2024 Omkar Patkar. All Rights Reserved.</p>
     </footer>
-
+    
+    <!-- GitHub Calendar Styles and Script -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar/dist/github-calendar-responsive.css"/>
+    <script src="https://unpkg.com/github-calendar"></script>
+    <script>
+      GitHubCalendar(".calendar", "omkaaaaaar", {
+        responsive: true,
+      });
+    </script>
+    
+    <!-- Your custom JS -->
+    <script src="script.js"></script>
     </body>
     </html>
     
+
+
+
