@@ -663,3 +663,40 @@ footer p {
     }
   }
 }
+
+.github-contributions-container {
+  margin-top: 3rem;
+  padding: 0;
+  text-align: center;
+  background: transparent;
+}
+
+.calendar-scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  display: block;
+  background: transparent;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;           /* Firefox */
+  -ms-overflow-style: none;        /* IE 10+ */
+}
+
+.calendar-scroll-container::-webkit-scrollbar {
+  display: none;                   /* Chrome, Safari, Opera */
+}
+
+.calendar-img {
+  display: inline-block;
+  width: 1200px;                   /* wide enough to force scrolling */
+  max-width: none;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
