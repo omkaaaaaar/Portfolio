@@ -700,3 +700,19 @@ footer p {
   background: transparent;
 }
 
+.calendar-scroll-container {
+  width: 100%;              /* full screen width */
+  max-width: 900px;         /* cap on desktop for layout */
+  overflow-x: auto;         
+  overflow-y: hidden;
+  white-space: nowrap;      
+  margin: 0 auto;           /* center container */
+  padding: 0;
+}
+
+.calendar-img {
+  display: inline-block;
+  width: 1200px;            /* wider than container to force scroll */
+  max-width: none;          
+  height: auto;
+}
